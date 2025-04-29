@@ -1,0 +1,24 @@
+<header class="header">
+    <div class="logo">
+        <a href=""> Logo</a>
+    </div>
+
+    <nav class="nav">
+        <a href="">Evento</a>
+        <a href="">Estabelecimentos</a>
+        <a href="">Contato</a>
+    </nav>
+</header>
+
+<main>
+    @for (evento of eventos; track evento.nome) {
+        <app-event-card
+          [nome]="evento.nome"
+          [dataHora]="evento.dataHora"
+          [localizacao]="evento.localizacao"
+          [imagemUrl]="evento.imagemUrl"
+          [descricao]="evento.descricao"
+        />
+        }
+
+</main>

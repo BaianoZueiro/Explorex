@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../../Dart/flutter_application_1"
+		},
+		{
+			"path": "../../exercicio"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Explorex-main"
+	}
+}

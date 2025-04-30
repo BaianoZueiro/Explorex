@@ -1,0 +1,117 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Layout principal */
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+/* Lado esquerdo */
+.left {
+    width: 50%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 300px;
+    margin-bottom: 60px;
+}
+
+.left h1 {
+    font-size: 120px;
+    color: #5a4747;
+}
+
+/* Lado direito */
+.right {
+    width: 50%;
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-box {
+    background: #fff;
+    padding: 100px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 650px;
+}
+
+.form-box h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 20px;
+    margin: 25px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff6600;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #e55d00;
+}
+
+.divider {
+    margin: 15px 0;
+    font-size: 12px;
+    color: #888;
+}
+
+.social-login {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.social-login img {
+    width: 40px;
+    cursor: pointer;
+}
+
+.terms {
+    font-size: 15px;
+    color: #666;
+    margin-top: 15px;
+}
+
+.terms a {
+    color: #ff6600;
+    text-decoration: none;
+}
+
+.login-link {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.login-link a {
+    color: #ff6600;
+    text-decoration: none;
+}

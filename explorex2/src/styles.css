@@ -63,6 +63,10 @@ input {
     border-radius: 5px;
 }
 
+input:hover {
+    border-color: #ff6600;
+}
+
 .btn {
     width: 100%;
     padding: 10px;
@@ -75,7 +79,7 @@ input {
 }
 
 .btn:hover {
-    background-color: #e55d00;
+    background-color: #d65b08;
 }
 
 .divider {

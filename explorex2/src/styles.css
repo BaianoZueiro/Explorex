@@ -119,3 +119,9 @@ input:hover {
     color: #ff6600;
     text-decoration: none;
 }
+
+.login-link a:hover {
+text-decoration: underline;
+}
+
+
